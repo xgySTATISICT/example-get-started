@@ -1,4 +1,6 @@
-['remote "storage"']
-url = https://remote.dvc.org/get-started
 [core]
-remote = storage
+    remote = myremote
+['remote "storage"']
+    url = https://remote.dvc.org/get-started
+['remote "myremote"']
+    url = D:\document\pycharmpro\MflowAndDvc\project\dvc-storage
